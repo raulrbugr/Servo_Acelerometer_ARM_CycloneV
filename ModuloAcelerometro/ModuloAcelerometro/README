@@ -1,0 +1,15 @@
+To compile the kernel module use the following command:
+
+  make
+
+To run the module (insert the module into the kernel):
+
+  insmod pushbutton_irq_handler.ko
+
+To stop the module (remove from kernel):
+
+  rmmod pushbutton_irq_handler
+  
+If you want stop the previous module, make and run the new module use the script:
+
+	./script
